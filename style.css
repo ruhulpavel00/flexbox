@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    width: 900px;
+    height: 450px;
+    background-color: #3f3b3a;
+    padding: 14px;
+    display: flex;
+    gap: 14px;
+}
+
+/*===== Left Column =====*/
+.left-side {
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.red-box {
+    height: 210px;
+    background-color: #ee4035;
+}
+
+.white-box {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+/*===== Right Area =====*/
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.top-row {
+    height: 116px;
+    display: flex;
+    gap: 14px;
+}
+
+.cyan-box {
+    width: 300px;
+    background-color: #27c3d1;
+}
+
+.gold-box {
+    flex: 1;
+    background-color: #d8b268;
+}
+
+/*===== Bottom Section =====*/
+.bottom-section {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+}
+
+.middle-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.mid-top {
+    height: 168px;
+    display: flex;
+    gap: 14px;
+}
+
+.gold-small {
+    width: 172px;
+    background-color: #d8b268;
+}
+
+.white-wide {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.mid-bottom {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+}
+
+.red-wide {
+    width: 300px;
+    background-color: #ee4035;
+}
+
+.cyan-small {
+    flex: 1;
+    background-color: #27c3d1;
+}
+
+.tall-red {
+    width: 172px;
+    background-color: #ee4035;
+}
